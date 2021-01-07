@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Raleway', sans-serif; 
+    color: #333;
+}
+
+body{
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #eee;
+}
+body img:hover{
+    transition: .5s;
+    filter: grayscale(.7); 
+}
+
+a:hover{
+    opacity: .5;
+    transition: .5s;
+}
+
+.header{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.logo{
+    display: inline-block;
+    font-size: 3vw;
+    text-decoration: none;
+    color: #333;
+    
+}
+
+.button-header{
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+}
+.back-btn{
+    display: inline-block;
+    font-size: .6vw;
+    text-decoration: none;
+    color: #eee;
+    padding: 1rem 1rem;
+    background-color: #333;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border: 2px solid #333;
+    border-right: 0;
+    position: relative;
+}
+.back-btn:hover{
+    transition: .5s;
+    filter: opacity(.7);
+}
+.viewAll-btn{
+    left: -4px;
+    display: inline-block;
+    font-size: .6vw;
+    text-decoration: none;
+    color: #333;
+    padding: 1rem 1rem;
+    background-color: #eee;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border: 2px solid #333;
+    border-left: 0;
+    position: relative;
+    margin-bottom: 5rem;
+}
+.viewAll-btn:hover{
+    transition: .5s;
+    filter: opacity(.7);
+}
+
+.container{
+    margin-top:  2.5rem;
+    margin-bottom: 2.5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+.container-plus{
+    display: flex;
+}
+.container-btn{
+    margin-top: 3%;
+    margin-bottom: 7%;
+    width: 100%;
+    font-size: .75vw;
+    text-align: center;
+    padding: 1rem 1rem;
+    background-color: #333;
+    border-radius: .5rem;
+    border: none;
+}
+
+.type{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.list-1{
+    width: 19.5%;
+    margin-right: .5%;
+}
+.list-1 img{
+    max-width: 100%;
+    border-radius: .5rem;
+}
+.judul-1{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 1vw;
+}
+.btn-1{
+    text-decoration: none;
+    color: #eee;
+}
